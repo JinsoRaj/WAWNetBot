@@ -1,0 +1,33 @@
+{
+  "name": "wawnetbot",
+  "version": "1.0.0",
+  "description": "WAWNet discourse RSS Bot",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinsoRaj/WAWNetBot.git"
+  },
+  "keywords": [
+    "discourse",
+    "api",
+    "rss",
+    "telegram-bot"
+  ],
+  "author": "JinsoRaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JinsoRaj/WAWNetBot/issues"
+  },
+  "homepage": "https://github.com/JinsoRaj/WAWNetBot#readme",
+  "dependencies": {
+    "@extractus/feed-extractor": "^6.1.8",
+    "dotenv": "^16.0.3",
+    "grammy": "^1.13.0",
+    "mongodb": "^4.13.0",
+    "node-cron": "^3.0.2"
+  }
+}
