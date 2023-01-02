@@ -29,13 +29,7 @@ export const rss = db.collection("rss");
 //     latestEntryTitle: String
 //     }
 // */
-export const users = db.collection("users");
-// /* users: {
-//     _id:,
-//     first_name:,
-//     username:,
-// }
-// */
+
 export const chats = db.collection("chats")
 // /* chats: {
 //     _id:,
