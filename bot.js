@@ -48,6 +48,7 @@ bot.on("my_chat_member", async ctx =>{
       }
       else if(ctx.myChatMember.new_chat_member.status == "member" || ctx.myChatMember.new_chat_member.status == "administrator" ){
         //add
+        await bot.api.sendMessage(ctx.myChatMember.chat.id, `Thanks for adding me\nNow you will get new Post notifications here...`)
         await addChat(ctx.myChatMember.chat.id, ctx.myChatMember.chat.title);
       }
 
